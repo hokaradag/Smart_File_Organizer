@@ -1,3 +1,5 @@
+Markdown
+
 # 📂 Smart File Organizer (Akıllı Dosya Düzenleyici)
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white) ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge) ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
@@ -25,8 +27,9 @@ Projeyi yerel makinenize klonlayın:
 ```bash
 git clone [https://github.com/hokaradag/Smart_File_Organizer.git](https://github.com/hokaradag/Smart_File_Organizer.git)
 cd Smart_File_Organizer
-```
 Sanal ortamı (opsiyonel ama önerilen) kurun:
+```
+
 # Sanal ortamı oluşturun
 python -m venv .venv
 
@@ -35,47 +38,44 @@ python -m venv .venv
 
 # Mac/Linux için aktifleştirme:
 source .venv/bin/activate
+💻 Kullanım
+Terminali açın ve programı çalıştırın:
 
----
+python main.py
+Program sizden düzenlenecek klasörün tam yolunu isteyecektir:
 
-## 💻 Kullanım
-- Terminali açın ve programı çalıştırın: python main.py
-- Program sizden düzenlenecek klasörün tam yolunu isteyecektir: Düzenlemek istediğiniz klasör yolunu yapıştırın: C:\Users\Adiniz\Downloads
+Düzenlemek istediğiniz klasör yolunu yapıştırın: C:\Users\Adiniz\Downloads
 
----
+📂 Proje Öncesi ve Sonrası
+Önce:
+```text
+Downloads/
+├── fatura.pdf
+├── tatil.jpg
+├── setup.exe
+└── film.mp4
+```
 
-## 📂 Proje Öncesi ve Sonrası
-- Önce: 
-    Downloads/
-    ├── fatura.pdf
-    ├── tatil.jpg
-    ├── setup.exe
+Sonra:
+```text
+Downloads/
+├── Belgeler/
+│   └── fatura.pdf
+├── Resimler/
+│   └── tatil.jpg
+├── Yazilim/
+│   └── setup.exe
+└── Videolar/
     └── film.mp4
-
-- Sonrası: 
-    Downloads/
-    ├── Belgeler/
-    │   └── fatura.pdf
-    ├── Resimler/
-    │   └── tatil.jpg
-    ├── Yazilim/
-    │   └── setup.exe
-    └── Videolar/
-    └── film.mp4
-
----
-
-## 🏗️ Proje Yapısı
-
+```
+🏗️ Proje Yapısı
+```text
 Smart_File_Organizer/
 ├── main.py          # Ana uygulama kodu ve mantığı
 ├── README.md        # Proje dokümantasyonu
 └── .gitignore       # Git tarafından yok sayılacak dosyalar
-
----
-
-## 🔮 Yol Haritası (Roadmap)
-
+```
+🔮 Yol Haritası (Roadmap)
 Bu proje geliştirmeye açıktır. Gelecek sürümler için planlanan özellikler:
 
 [ ] Grafik Arayüz (GUI) eklenmesi.
@@ -84,9 +84,7 @@ Bu proje geliştirmeye açıktır. Gelecek sürümler için planlanan özellikle
 
 [ ] Belirli tarih öncesi dosyaları arşivleme seçeneği.
 
----
-
-## 🤝 İletişim
+🤝 İletişim
 Geliştirici: Hamit O. Karadağ
 
 GitHub: hokaradag
