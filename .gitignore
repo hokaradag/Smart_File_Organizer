@@ -1,0 +1,15 @@
+# Python önbellek dosyaları
+__pycache__/
+*.py[cod]
+
+# Sanal Ortam (GitHub'a yüklenmez, herkes kendi kurar)
+.venv/
+env/
+venv/
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+
+# VS Code ayarları (Kişisel ayarların gitmesin)
+.vscode/
