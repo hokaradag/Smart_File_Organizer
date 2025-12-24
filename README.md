@@ -27,8 +27,10 @@ Projeyi yerel makinenize klonlayın:
 ```bash
 git clone [https://github.com/hokaradag/Smart_File_Organizer.git](https://github.com/hokaradag/Smart_File_Organizer.git)
 cd Smart_File_Organizer
-Sanal ortamı (opsiyonel ama önerilen) kurun:
 ```
+
+Sanal ortamı (opsiyonel ama önerilen) kurun:
+
 
 # Sanal ortamı oluşturun
 python -m venv .venv
