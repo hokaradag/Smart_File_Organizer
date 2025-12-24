@@ -33,17 +33,26 @@ Sanal ortamı (opsiyonel ama önerilen) kurun:
 
 
 # Sanal ortamı oluşturun
+```bash
 python -m venv .venv
+```
 
 # Windows için aktifleştirme:
+```bash
 .venv\Scripts\activate
+```
 
 # Mac/Linux için aktifleştirme:
+```bash
 source .venv/bin/activate
+```
+
 💻 Kullanım
 Terminali açın ve programı çalıştırın:
-
+```bash
 python main.py
+```
+
 Program sizden düzenlenecek klasörün tam yolunu isteyecektir:
 
 Düzenlemek istediğiniz klasör yolunu yapıştırın: C:\Users\Adiniz\Downloads
